@@ -1,3 +1,10 @@
+@import url("https://cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
+
+@font-face {
+	font-family: "example font";
+	src: url("../fonts/alk-life-webfont.ttf");
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -18,12 +25,27 @@ header {
 	padding-top: 40px;
 	height: 387.56px;
 }
+.container {
+	max-width: 1440px;
+	width: 90%;
+	margin: 0 auto;
+}
 header nav a {
 	color: #fff;
+	font-family: "Roboto", sans-serif;
 }
 header li {
 	margin-left: 40px;
+}
+
+nav,
+nav ul,
+nav li {
 	display: inline-block;
+}
+nav,
+.logo {
+	vertical-align: middle;
 }
 
 .contact {
@@ -51,7 +73,7 @@ header li {
 	width: 219px;
 	height: 219px;
 	object-fit: cover;
-	/* margin-left: 25px; */
+	margin-left: 25px;
 }
 
 .images img.no-margin {
@@ -60,11 +82,41 @@ header li {
 
 .see-more {
 	padding: 18px 57px;
+	background-color: #0020f4;
+	border: none;
 }
-
+h2 {
+	font-family: "bold";
+}
 .homework p {
 	max-width: 951px;
 	margin: auto;
+	font-family: "ALK Life", sans-serif;
 }
 
 /* lesson 5 */
+.new {
+	max-width: 1195px;
+	width: 90%;
+	margin: auto;
+}
+.new .img-text {
+	border: 5px solid rebeccapurple;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 30px;
+	text-align: center;
+	border-radius: 30px;
+}
+.img-text img,
+.img-text p {
+	display: inline-block;
+	vertical-align: middle;
+}
+.img-text p {
+	max-width: 400px;
+	font-family: "roboto regular";
+}
+.img-text img {
+	max-width: 500px;
+}

@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "ALK Life";
+	src: url("../fonts/alk-life-webfont.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/alk-life-webfont.eot?#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */ url("../fonts/alk-life-webfont.woff2") format("woff2"),
+		/* Super Modern Browsers */ url("../fonts/alk-life-webfont.woff")
+			format("woff"),
+		/* Pretty Modern Browsers */ url("../fonts/alk-life-webfont.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("../fonts/alk-life-webfont.svg#alk_liferegular") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: "bold";
+	src: url("../fonts/TiltPrism-Regular.eot");
+	src: url("../fonts/TiltPrism-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/TiltPrism-Regular.woff2") format("woff2"),
+		url("../fonts/TiltPrism-Regular.woff") format("woff"),
+		url("../fonts/TiltPrism-Regular.ttf") format("truetype"),
+		url("../fonts/TiltPrism-Regular.svg#TiltPrism-Regular") format("svg");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "example font";
+	src: url("../fonts/alk-life-webfont.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "roboto regular";
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
